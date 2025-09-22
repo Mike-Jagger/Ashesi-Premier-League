@@ -1,3 +1,19 @@
+/*
+ * Project Name: Ashesi Premier League
+ *
+ * Student Name: Gerard Ledoux Mendjemo Ngangom
+ *
+ * Purpose:
+ * - Practice basic Java syntax with variables, data types, and initialization.
+ * - Apply type casting, increment/decrement operators, and logical operators.
+ * - Use selection statements: if/else, nested ifs, switch, and conditional expressions.
+ * - Understand and practice switch fall-through (running cases), both as a mistake and as a
+ *   useful grouping technique.
+ * - Combine all concepts into a single, working player selection simulator
+ *
+ * Date: 22/09/2025
+ * */
+
 import java.util.Scanner;
 
 public class PlayerSelection {
