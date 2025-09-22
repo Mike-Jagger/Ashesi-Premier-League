@@ -116,7 +116,7 @@ public class PlayerSelection {
         System.out.println();
 
         // TASK 6
-        System.out.println("Enter the player's jersey number:");
+        System.out.println("Enter the player's jersey number: ");
         int coachInput = sc.nextInt();
 
         switch(coachInput) {
@@ -136,7 +136,7 @@ public class PlayerSelection {
 
         // TASK 7
         // PART A
-        System.out.println("Enter the player's jersey number (7.a):");
+        System.out.println("Enter the player's jersey number (7.a): ");
         coachInput = sc.nextInt();
 
         switch(coachInput) {
@@ -170,7 +170,7 @@ public class PlayerSelection {
         }
 
         // PART B
-        System.out.println("Enter the player's jersey number (7.b):");
+        System.out.println("Enter the player's jersey number (7.b): ");
         coachInput = sc.nextInt();
 
         switch(coachInput) {
@@ -198,6 +198,15 @@ public class PlayerSelection {
         }
 
         System.out.println();
+
+        // Attacker jersey
+        if (jerseyNum == 9 || jerseyNum == 10 || jerseyNum == 7 || jerseyNum == 11)
+            System.out.println("Attacker jersey - yes");
+        else
+            System.out.println("Attacker jersey - no");
+
+        System.out.println();
+
 
         // TASK 8
         if (age >= 20 && age <= 30) {
